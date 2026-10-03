@@ -36,7 +36,8 @@ Para poder empezar con la investigacion de los usuarios primero tenemos que sabe
 - **Perfil del usuario en uso:** Lo utilizan principalmente usuarios con poco tiempo para ir a la tienda en fisico por lo que prefieren comprar en movil.
 - **Principal barrera:** Miedo a equibocarse en el tallaje por el crecimiento cinstante de los niños o por el cambio de tamaños de las tallas en diferentes marcas y complicacion en los pasos para compran.
 
-### 2.2 Personas                             #### Persona 1: Sara Monte Rey - Madre con poco tiempo
+### 2.2 Personas                             
+#### Persona 1: Sara Monte Rey - Madre con poco tiempo
 - **Edad:** 37 años.
 - **Profesión:** Profesora, se esta reincorporandose de una baja de marternidad
 - **Contexto:** Vive con su pareja y sus dos hijos, un niño de 2 años y una bébe de 5 meses. Entre el trabajo y los niños no dispone de tiempo para ir a tiendas fisicas, algo necesario porque su mayor acaba de tener un estirón y la bebe no para de crecer por lo que necesita nueva ropa con urgencia.
@@ -59,11 +60,6 @@ Para mejorar nuestra aplicacion exminaremos 3 aplicaciones reales del sector:
 | **Zara** | Su proceso de pagos muy optimizados y rapido que consiste de pocos paso. | Iconografía excesivamente minimalista y ambigua. Su selector de talla pordria mejorarse. | Priorizar la transanción en los pedidos online. | (Inditex, 2026) |
 | **H&M** | Cuenta con un sistema muy eficiente de *Filter Chips* para filtrar. | Su interfaz esta sobre cargada de constantes ofertas promocionales que estan distraen a los usuarios y cierres inesperados al añadir al carrito. | Deveriamos adopa los *Fliter Chips* para nuestros flitros y no sobrecargar con publicidad nuestro diseño | (H&M Group, 2026) |
 
-Aqui esta la Binliografia de la tabla:
-- H&M Group. (2026). *H&M* (Versión 5.8.1) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.hm.goe
-- Inditex. (2026). *Zara* (Versión 18.23.0) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.inditex.zara
-- Mayoral Moda Infantil. (2026). *Mayoral - Moda infantil* (Versión 2.4) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.mayoral.appv2
-
 ### 2.4 Insights y hallazgos clave 
 Una vez que hemos recopilados los datos sobre nuestro publico objetivo y nuestra competencia hemos podido extraer cuatro hallazcgos claves **insighs** para implantar en el diseño de la interfaz:
 1. **Insighs 1: Las tallas incorrectas probocan la indecision de comprar una prenda o la devolucion de la misma**   
@@ -78,3 +74,82 @@ Una vez que hemos recopilados los datos sobre nuestro publico objetivo y nuestra
 4. **Insighs 4: Quitar por error algo del carrito **
     - **Hallazgo:** Eliminar incorrertamente un item del carrito y tener que volver a buscarlo en el catalogo, por lo que los usuarios se frustran al tener que ir marcha atras.
     - **Diseño:** Implementar un boton de desacer para recuperar las cosas que se borren del carrito.
+
+## 3. Diseño de la interfaz
+
+### 3.1 Mapa de navegación
+
+```mermaid
+graph TD 
+    LOGIN["Login"]
+    A["Inicio / Home"]
+    B["Catálogo"]
+    C["Detalles productos"]
+    D["Carrito"]
+    E["Checkout"]
+    F["Confirmar"]
+    G["Perfil / Favoritos"] 
+
+    LOGIN[Login] --> |Correo o Google| A[Inicio / Home]
+
+    A -->|Categorías por edad / Buscador| B[Catálogo]
+    A -->|Navigation Bar| G[Perfil / Favoritos] 
+
+    B -->|Volver a Home| A
+    B -->|Filter Chips / Eligir producto| C[Detalles productos]
+
+    C -->|Pulsar Guía de tallas| C1[Bottom Sheet Guía de Tallas]
+    C1 -->|Volver a Carrito| C
+    C -->|Seleccionasr talla y añadir| D[Carrito]
+    C -->|Volver a Catalogo| B
+
+    D -->|Snackbar: Deshecer eliminación| D
+    D -->|Iniciar Checkout| E[Checkout]
+    D -->|Volver a Home| A
+
+    E -->|Error en Text / Corregir| E
+    E -->|Confirmar pedido| F[Confirmar]
+
+    F -->|Volver a Home| A
+
+    G -->|Volver a Home| A
+    G -->|Ir al catalogo| B
+
+    subgraph NavigationBar [Navigation Bar - 3 Destinos]
+        A
+        B
+        G
+    end
+```
+
+### 3.2 Wireframes
+
+Ahora que tenemos la jeraquia podemos realizar las pantallas:
+
+Las pantallas tiene que quedar de la siguiente manera:
+![Vista paranomica](capturas/wireframes/Vista%20paranomica.png)
+
+1. **00_LOGIN:** Pantalla para inicar sesión o registarse.   
+![00-LOGIN](capturas/wireframes/00%20-%20LOGIN.png)
+2. **01_Inicio:** Pantalla para inicio de la cuenta donde podemos ir a las direntes opciones de la aplicación.   
+![01-Inicio](capturas/wireframes/01%20-%20Inicio.png)
+3. **02_Catálogo:** Pantalla dond se puestra todas las opsiones dond puede filtrar las opciones.    
+![02-Catálogo](capturas/wireframes/02%20-%20Catálogo.png)
+4. **03_Detalles del Producto:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![03-Detalles del Producto](capturas/wireframes/03%20-%20Detalles%20del%20Producto.png)
+5. **04_Carrito:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![04-Carrito](capturas/wireframes/04%20-%20Carrito.png)
+6. **05_Checkout:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![05-Checkout](capturas/wireframes/05%20-%20Checkout.png) 
+7. **06_Confirmación:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![06-Confirmación](capturas/wireframes/06%20-%20Confirmación.png)
+8. **07_Perfil:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![07-Perfil](capturas/wireframes/07%20-%20Perfil.png)
+
+## Bibliografia
+
+H&M Group. (2026). *H&M* (Versión 5.8.1) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.hm.goe
+
+Inditex. (2026). *Zara* (Versión 18.23.0) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.inditex.zara
+
+Mayoral Moda Infantil. (2026). *Mayoral - Moda infantil* (Versión 2.4) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.mayoral.appv2
