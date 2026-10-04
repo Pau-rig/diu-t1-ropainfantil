@@ -241,6 +241,24 @@ Hemos establecido las siguientes tareas para la prueba de la aplicacion con 2 co
 | Error 1| ![03_Detalles del Producto](capturas/iteracion/03_Detalles%20del%20Producto.png) | ![03_Detalles del Producto](capturas/iteracion/Opcion%2000.png) ![03_Detalles del Producto](capturas/iteracion/Opcion%2024M.png)|
 | Error 2 | ![05_Checkout](capturas/iteracion/05_Checkout.png) | ![05_Checkout](capturas/iteracion/Selecion%20de%20Casa.png) ![05_Checkout](capturas/iteracion/Selecion%20de%20Tienda.png) |
 
+## 5. Entrega y documentación final
+
+### 5.1 Justificación del diseño propuesto
+El diseño esta pensado para una aplicacion movil y por ello hemos tomado las siguientes expeficaciones de dideño:
+
+1. **Paleta de Colores:** Hemos selecionado colores suaves para que encagen con la tematica de ropa infantil mas dulce y risueña.
+
+2. **Arquitectura de Información:** Utilizamos las 4 columnas con un espacio de 8 dp con margenes e interculumnas de 16 dp.
+
+3. **Decisiones de UX / Flujo de Compra:** Utilize compatneres como Bottom Sheet para la guia de tallas poque es mas sencillo con el espacio con le que estaba trabajando.
+
+### 5.2 Recomendaciones y pasos a seguir
+
+- **Ampliar el Catologo:** Tenemos muy pocos opciones de colores en otros productos y productos en si.
+- **Modo Oscuro:** Terminar de completar el modo Oscuro en toda la aplicacion.
+
+
+
 ## Bibliografia
 
 H&M Group. (2026). *H&M* (Versión 5.8.1) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.hm.goe
