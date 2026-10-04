@@ -210,6 +210,35 @@ Para mantener un orden y una mejor experiencia grafia hemos aplicado la siguient
 9. **03_Detalles_del_Producto_OSCURO:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo pero en oscuro.
 ![03_Detalles del Producto_OSCURO](capturas/prototipo/03_Detalles%20del%20Producto_OSCURO.png)
 
+## 4. Validación e Iteración con Usuarios
+
+### 4.1 Metodología de las Pruebas
+Hemos establecido las siguientes tareas para la prueba de la aplicacion con 2 compañeros:
+- **Tarea 1:** Compra el conjunto amarillo de la talla 00 y que te lo envien a casa.
+- **Tarea 2:** Compra el conjunto amarillo de la talla 0 y que te lo envien a la tienda.
+- **Tarea 3:** Compra el conjunto amarillo de la talla 24M y que te lo envien a la tienda.
+
+### 4.2 Tabla de Resultados de las Pruebas (Pruebas con Usuarios)
+
+| Usuario | Tarea | Éxito | Tiempo | Errores |
+| --- | --- | --- | --- | --- | --- |
+| **Usuario 1** | **Tarea 1** | Exito | 13 segundos | Ninguno | 
+| **Usuario 1** | **Tarea 2** | Fracaso | 16 segundos |  Al seleccionar que me lo trajeran a tienda se selecciono para casa |
+| **Usuario 1** | **Tarea 3** | Fracaso | 27 segundos | Al seleccionar que me lo trajeran a tienda se selecciono para casa y no pude cambiar el color | 
+| **Usuario 2** | **Tarea 1** | Exito | 4 segundos | Ninguno | 
+| **Usuario 2** | **Tarea 2** | Fracaso | 10 segundos | No se porque aveces cuando le doy a tienda seleciona casa sin querer. |
+| **Usuario 2** | **Tarea 3** | Fracaso | 30 segundos | He intentado de todas las maneras darle al boton de la talla y no funciona. | 
+
+### 4.3 Iteraciones y mejoras
+- **Error 1:** Antes no havia mas opciones de talla por lo que hemos añadido mas. 
+
+- **Error 2:** No funcionaba el mandar a tiemda o casa bien por lo que reicimos las animaciones y volvieron a funcionar. 
+
+| Error | Estado Previo (Antes) | Estado Iterado (Después) |
+| --- | --- | --- |
+| Error 1| ![03_Detalles del Producto](capturas/iteracion/03_Detalles%20del%20Producto.png) | ![03_Detalles del Producto](capturas/iteracion/Opcion%2000.png) ![03_Detalles del Producto](capturas/iteracion/Opcion%2024M.png)|
+| Error 2 | ![05_Checkout](capturas/iteracion/05_Checkout.png) | ![05_Checkout](capturas/iteracion/Selecion%20de%20Casa.png) ![05_Checkout](capturas/iteracion/Selecion%20de%20Tienda.png) |
+
 
 
 ## Bibliografia
