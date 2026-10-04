@@ -36,7 +36,8 @@ Para poder empezar con la investigacion de los usuarios primero tenemos que sabe
 - **Perfil del usuario en uso:** Lo utilizan principalmente usuarios con poco tiempo para ir a la tienda en fisico por lo que prefieren comprar en movil.
 - **Principal barrera:** Miedo a equibocarse en el tallaje por el crecimiento cinstante de los niños o por el cambio de tamaños de las tallas en diferentes marcas y complicacion en los pasos para compran.
 
-### 2.2 Personas                             
+### 2.2 Personas   
+
 #### Persona 1: Sara Monte Rey - Madre con poco tiempo
 - **Edad:** 37 años.
 - **Profesión:** Profesora, se esta reincorporandose de una baja de marternidad
@@ -145,6 +146,46 @@ Las pantallas tiene que quedar de la siguiente manera:
 ![06-Confirmación](capturas/wireframes/06%20-%20Confirmación.png)
 8. **07_Perfil:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
 ![07-Perfil](capturas/wireframes/07%20-%20Perfil.png)
+
+### 3.3 Guía de estilo Material Design 3
+
+Esta es la guía del estilo que vamos a realizar la aplicación.
+
+1. **Esquema de color**   
+Este esquema de color se a realizado utilizando la herramienta **Material Theme Builder** apartir del color semilla **#006A6A**. Estos son los esquemas pera el tema claro y oscuro.
+
+Se han comparado los colores para que cumplan con el ratio de contraste mínimo de **4.5:1** en texto normal.
+
+| ROL M3 | TEMA CLARO | TEMA OSCURO | PAR ON-COLOR | CONTRASTE CLARO | CONTRASTE OSCURO | CUMPLE WCAG AA |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Primary** | #006A6A | #80D5D4 | onPrimary (#FFFFFF / #003737) | 4.6:1 | 9.1:1 | Sí (≥ 4.5:1) |
+| **Primary Container** | #9CF1F0 | #004F4F | onPrimaryContainer (#002020 / #9CF1F0) | 12.5:1 | 6.8:1 | Sí (≥ 4.5:1) |
+| **Secondary** | #4A6363 | #B1CCCB | onSecondary (#FFFFFF / #1C3534) | 6.2:1 | 8.3:1 | Sí (≥ 4.5:1) |
+| **Tertiary** | #4B6078 | #B3C8E4 | onTertiary (#FFFFFF / #1B3247) | 5.8:1 | 8.9:1 | Sí (≥ 4.5:1) |
+| **Surface** | #FAFDFC | #191C1C | onSurface (#191C1C / #E0E3E2) | 15.3:1 | 12.1:1 | Sí (≥ 4.5:1) |
+| **Error** | #BA1A1A | #FFB4AB | onError (#FFFFFF / #690005) | 5.9:1 | 9.8:1 | Sí (≥ 4.5:1) | 
+
+2. **Tipografía**   
+
+| ROL TIPOGRÁFICO M3 | TAMAÑO | INTERLINEADO | PESO | INTERFAZ |
+| :--- | :---: | :---: | :---: | :--- |
+| **Headline Small** | 24 | 32 | Regular (400) | Títulos principales de sección o pantalla (ej. "CARRITO", "CHECKOUT" y "Littel Toes") |
+| **Title Large** | 22 | 28 | Regular (400) | Nombres de producto en detalle |
+| **Title Medium** | 16 | 24 | Medium (500) | Nombre de producto en Tarjetas y encabezados secundarios |
+| **Body Large** | 16 | 24 | Regular (400) | Texto descriptivo, campos de entrada (Text Fields) y descripciones |
+| **Label Large** | 14 | 20 | Medium (500) | Botones (Filled/Outlined), Filter Chips y pestañas de la Navigation Bar |
+
+3. **Rejilla, espaciado y áreas táctiles **    
+Para mantener un orden y una mejor experiencia grafia hemos aplicado la siguiente reglas en el maqueta.
+
+- **Layout Grid** 
+    - **Columnas:** 4 columnas
+    - **Márgenes laterales:** 16 dp a cada lado de la pantalla.
+    - **Medianil (Gutter):** 16 dp de separación entre columnas.
+- **Sistema de espaciado:**
+    - He realizado la retícula de múltiplos de 8 para la separacion enter contenedosres
+- **Áreas táctiles**
+    - Los elementos interactivos cuentan con un área táctil de almenos 48x48.
 
 ## Bibliografia
 
