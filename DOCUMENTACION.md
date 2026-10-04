@@ -158,11 +158,11 @@ Se han comparado los colores para que cumplan con el ratio de contraste mínimo 
 
 | ROL M3 | TEMA CLARO | TEMA OSCURO | PAR ON-COLOR | CONTRASTE CLARO | CONTRASTE OSCURO | CUMPLE WCAG AA |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Primary** | #006A6A | #80D5D4 | onPrimary (#FFFFFF / #003737) | 4.6:1 | 9.1:1 | Sí (≥ 4.5:1) |
-| **Primary Container** | #9CF1F0 | #004F4F | onPrimaryContainer (#002020 / #9CF1F0) | 12.5:1 | 6.8:1 | Sí (≥ 4.5:1) |
-| **Secondary** | #4A6363 | #B1CCCB | onSecondary (#FFFFFF / #1C3534) | 6.2:1 | 8.3:1 | Sí (≥ 4.5:1) |
-| **Tertiary** | #4B6078 | #B3C8E4 | onTertiary (#FFFFFF / #1B3247) | 5.8:1 | 8.9:1 | Sí (≥ 4.5:1) |
-| **Surface** | #FAFDFC | #191C1C | onSurface (#191C1C / #E0E3E2) | 15.3:1 | 12.1:1 | Sí (≥ 4.5:1) |
+| **Primary** | #904B3E | #FF9E8B | onPrimary (#FFFFFF / #561E15) | 6.4:1 | 6.6:1 | Sí (≥ 4.5:1) |
+| **Primary Container** | #FFDAD3 | #733429 | onPrimaryContainer (#3A0A05 / #FFDAD3) | 13.1:1 | 5.8:1 | Sí (≥ 4.5:1) |
+| **Secondary** | #775751 | #E7BDB6 | onSecondary (#FFFFFF / #442A25) | 5.2:1 | 8.8:1 | Sí (≥ 4.5:1) |
+| **Tertiary** | #6E5D2E | #DCC48C | onTertiary (#FFFFFF / #3C2F04) | 5.0:1 | 8.1:1 | Sí (≥ 4.5:1) |
+| **Surface** | #FAFDFC | #1A1110 | onSurface (#231917 / #F0DFDC) |15.6:1 | 13.0:1 | Sí (≥ 4.5:1) |
 | **Error** | #BA1A1A | #FFB4AB | onError (#FFFFFF / #690005) | 5.9:1 | 9.8:1 | Sí (≥ 4.5:1) | 
 
 2. **Tipografía**   
@@ -175,7 +175,7 @@ Se han comparado los colores para que cumplan con el ratio de contraste mínimo 
 | **Body Large** | 16 | 24 | Regular (400) | Texto descriptivo, campos de entrada (Text Fields) y descripciones |
 | **Label Large** | 14 | 20 | Medium (500) | Botones (Filled/Outlined), Filter Chips y pestañas de la Navigation Bar |
 
-3. **Rejilla, espaciado y áreas táctiles **    
+3. **Rejilla, espaciado y áreas táctiles**    
 Para mantener un orden y una mejor experiencia grafia hemos aplicado la siguiente reglas en el maqueta.
 
 - **Layout Grid** 
@@ -186,6 +186,31 @@ Para mantener un orden y una mejor experiencia grafia hemos aplicado la siguient
     - He realizado la retícula de múltiplos de 8 para la separacion enter contenedosres
 - **Áreas táctiles**
     - Los elementos interactivos cuentan con un área táctil de almenos 48x48.
+
+### 3.4 Prototipo de alta fidelidad
+
+1. **00_LOGIN:** Pantalla para inicar sesión o registarse.   
+![00-LOGIN](capturas/prototipo/00_LOGIN.png)
+2. **01_Inicio:** Pantalla para inicio de la cuenta donde podemos ir a las direntes opciones de la aplicación.   
+![01-Inicio](capturas/prototipo/01_Inicio.png)
+3. **02_Catálogo:** Pantalla dond se puestra todas las opsiones dond puede filtrar las opciones.    
+![02-Catálogo](capturas/prototipo/02_Catalogo.png)
+4. **03_Detalles del Producto:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![03-Detalles del Producto](capturas/prototipo/03_Detalles%20del%20Producto.png)
+5. **04_Carrito:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![04-Carrito](capturas/prototipo/04_Carrito.png)
+6. **05_Checkout:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![05-Checkout](capturas/prototipo/05_Checkout.png) 
+7. **06_Confirmación:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![06-Confirmación](capturas/prototipo/06_Confirmacion.png)
+8. **07_Perfil:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo.  
+![07-Perfil](capturas/prototipo/07_Perfil.png)
+9. **01_Inicio_OSCURO:** Pantalla para inicio de la cuenta donde podemos ir a las direntes opciones de la aplicación pero en oscuro.  
+![01_Inicio_OSCURO](capturas/prototipo/01_Inicio_OSCURO.png)
+9. **03_Detalles_del_Producto_OSCURO:** Pantalla donde una vez selecionado el producto nos muestra toda la informacion del mismo pero en oscuro.
+![03_Detalles del Producto_OSCURO](capturas/prototipo/03_Detalles%20del%20Producto_OSCURO.png)
+
+
 
 ## Bibliografia
 
