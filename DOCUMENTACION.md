@@ -230,16 +230,16 @@ Hemos establecido las siguientes tareas para la prueba de la aplicacion con 2 co
 | **Usuario 2** | **Tarea 3** | Fracaso | 30 segundos | He intentado de todas las maneras darle al boton de la talla y no funciona. | 
 
 ### 4.3 Iteraciones y mejoras
-- **Error 1:** Antes no havia mas opciones de talla por lo que hemos añadido mas. 
+- **Error 1:** Antes no havia mas opciones de talla por lo que hemos añadido mas.
 
-- **Error 2:** No funcionaba el mandar a tiemda o casa bien por lo que reicimos las animaciones y volvieron a funcionar. 
 
-| Error | Estado Previo (Antes) | Estado Iterado (Después) |
+- **Error 2:** No funcionaba el mandar a tiemda o casa bien por lo que reicimos las animaciones y volvieron a funcionar.
+
+
+| Error | Antes | Después |
 | --- | --- | --- |
 | Error 1| ![03_Detalles del Producto](capturas/iteracion/03_Detalles%20del%20Producto.png) | ![03_Detalles del Producto](capturas/iteracion/Opcion%2000.png) ![03_Detalles del Producto](capturas/iteracion/Opcion%2024M.png)|
 | Error 2 | ![05_Checkout](capturas/iteracion/05_Checkout.png) | ![05_Checkout](capturas/iteracion/Selecion%20de%20Casa.png) ![05_Checkout](capturas/iteracion/Selecion%20de%20Tienda.png) |
-
-
 
 ## Bibliografia
 
