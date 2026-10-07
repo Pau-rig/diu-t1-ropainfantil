@@ -1,9 +1,9 @@
 {
   "propietario": "Pau-rig",
   "tienda": "Little Toes",
-  "colorSemilla": "#006A6A",
+  "colorSemilla": "#FF9E8B",
   "esquema": {
-    "claro":  { "primary": "#904B3E", 
+    "claro":  { "primary": "#FF9E8B", 
                 "onPrimary": "#FFFFFF", 
                 "primaryContainer": "#FFDAD3", 
                 "onPrimaryContainer": "#3A0A05",

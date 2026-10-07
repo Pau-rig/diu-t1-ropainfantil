@@ -152,7 +152,7 @@ Las pantallas tiene que quedar de la siguiente manera:
 Esta es la guía del estilo que vamos a realizar la aplicación.
 
 1. **Esquema de color**   
-Este esquema de color se a realizado utilizando la herramienta **Material Theme Builder** apartir del color semilla **#006A6A**. Estos son los esquemas pera el tema claro y oscuro.
+Este esquema de color se a realizado utilizando la herramienta **Material Theme Builder** apartir del color semilla **#FF9E8B**. Estos son los esquemas pera el tema claro y oscuro.
 
 Se han comparado los colores para que cumplan con el ratio de contraste mínimo de **4.5:1** en texto normal.
 
@@ -246,7 +246,7 @@ Hemos establecido las siguientes tareas para la prueba de la aplicacion con 2 co
 ### 5.1 Justificación del diseño propuesto
 El diseño esta pensado para una aplicacion movil y por ello hemos tomado las siguientes expeficaciones de dideño:
 
-1. **Paleta de Colores:** Hemos selecionado colores suaves para que encagen con la tematica de ropa infantil mas dulce y risueña.
+1. **Paleta de Colores:** Hemos selecionado la semilla **FF9E8B** porque trasmite ternura cercania y cuidado. Conecta emocionalmente con padres, madres y familiares que buscan prendad infantiles. Tambien lo hemos eleguido porque no estar saturalizado reduce la fatiga visual en sesiones prolongadas de búsquedad.
 
 2. **Arquitectura de Información:** Utilizamos las 4 columnas con un espacio de 8 dp con margenes e interculumnas de 16 dp.
 
@@ -257,12 +257,14 @@ El diseño esta pensado para una aplicacion movil y por ello hemos tomado las si
 - **Ampliar el Catologo:** Tenemos muy pocos opciones de colores en otros productos y productos en si.
 - **Modo Oscuro:** Terminar de completar el modo Oscuro en toda la aplicacion.
 
-
-
-## Bibliografia
+## 6. Bibliografia
 
 H&M Group. (2026). *H&M* (Versión 5.8.1) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.hm.goe
 
 Inditex. (2026). *Zara* (Versión 18.23.0) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.inditex.zara
 
 Mayoral Moda Infantil. (2026). *Mayoral - Moda infantil* (Versión 2.4) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.mayoral.appv2
+
+Mayoral Moda Infantil. (2026). *Mayoral - Moda infantil* (Versión 2.4) [Aplicación móvil]. Google Play Store. https://play.google.com/store/apps/details?id=com.mayoral.appv2
+
+**Palabra del dia:** 29.
